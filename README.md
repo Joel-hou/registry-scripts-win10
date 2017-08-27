@@ -1,2 +1,6 @@
 # registry-scripts-win10
-For convenience
+
+Since I assume your region is China and your language is Chinese, all of the registry scripts are encoded in GBK.
+
+
+
