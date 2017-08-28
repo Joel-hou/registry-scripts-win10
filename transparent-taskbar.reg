@@ -2,4 +2,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]	
 
-"UseOLEDTaskbarTransparency"=hex:01
+"UseOLEDTaskbarTransparency"=dword:1
