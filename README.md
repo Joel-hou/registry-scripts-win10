@@ -1,6 +1,6 @@
 # registry-scripts-win10
 
-Since I assume your region is China and your language is Chinese, all of the registry scripts are encoded in GBK.
+Our computer settings may be different (regions,default language), different encoding may be used which makes your menu looks like gibberish. You can easily delete those registry entries manaully.
 
 
 
