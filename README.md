@@ -1,8 +1,16 @@
-# better-use-win10
+# Better Use Windows 
 
+## Software to enhance your experience with Windows 
+- Listary
+- Free Download Manager
 
-
-Our computer settings may be different (regions,default language), different encoding may be used which makes your menu looks like gibberish. You can easily delete those registry entries manually at any time.
-
-
-
+## Here are some other tips to make Windows easier to use 
+- Change Capslock to Esc
+Just right click capslock-to-esc.reg
+- Make your taskbar transparent
+Just right click transparent-taskbar to import entries
+- Automatically empty the recycle bin
+Task Scheduler create new task
+```
+cmd.exe /c "echo Y|PowerShell.exe -NoProfile -Command Clear-RecycleBin"
+```
