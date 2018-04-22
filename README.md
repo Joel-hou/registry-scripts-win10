@@ -32,16 +32,16 @@ Last step, type "Set-Theme" space and tab to choose your theme
 ## Here are some other tips to make Windows easier to use 
 - Change Capslock to Esc
 
-Just right click capslock-to-esc.reg
+  Just right click capslock-to-esc.reg
 - Make your taskbar transparent
 
-Just right click transparent-taskbar to import entries
+  Just right click transparent-taskbar to import entries
 - Add "Edit with Vim" to right click menu
 
-Right click add-edit-with-neovim.reg
+  Right click add-edit-with-neovim.reg
 - Automatically empty the recycle bin after you logged in
 
-Task Scheduler create new task
+  Task Scheduler create new task
 ```
 cmd.exe /c "echo Y|PowerShell.exe -NoProfile -Command Clear-RecycleBin"
 ```
