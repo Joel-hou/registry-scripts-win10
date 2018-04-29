@@ -1,34 +1,103 @@
 # Better Use Windows 
 
 ## Software to enhance your experience with Windows 
+### Tool
+- Chrome
+- Office
+- CloudMusic
+- Shadowsocks
+- Winrar
+- Vmware
+- CCleaner
+Create a new file named rarreg.key contains the following lines 
+```
+RAR registration data
+yaokai.com
+Unlimited Company License
+UID=636da5a1e3718a4597b9
+641221225097b94b94094a6548ed8365940161a87853d63b09c6ff
+0b86c572d75fb683db5960fce6cb5ffde62890079861be57638717
+7131ced835ed65cc743d9777f2ea71a8e32c7e593cf66794343565
+b41bcf56929486b8bcdac33d50ecf77399608cfb51a0f9e15e798c
+57fc8a5e5c3fc69a04ae7d4ec41408c506ff1c90962e165207a4e9
+45d426eae53d8849d222b3b26997e5e18b4526596c75d682603e01
+1364c589ec5fcea9fa5b796e3fa7437cd080392e5d791757768079
+```
+Placed it under the directory where winrar is installed
+- Dism++
+- Eudic
 - Listary
+  Listary 选项->关键字->Web 添加"知乎"
+  ```
+  https://www.zhihu.com/search?type=content&q={query}
+  ```
 - Free Download Manager
-- Git
-- Vim/Neovim
 
-## Make powershell better
-1. Install oh-my-posh
+### Social
+- Tim
+- WeChat
+### Coder
+- Git
 ```
-Install-Module posh-git -Scope CurrentUser
-Install-Module oh-my-posh -Scope CurrentUser
+git config --global user.name "youName"
+git config --global user.email "youremail@example.com"
 ```
+- VScode
+- Idea/Webstorm/pyCharm
+- Vim/Neovim
+- Settings -> Update&Security -> For Developers -> Developer Mode
+### UWP apps
+- Wunderlist
+- iTunes
+
+## Make cmd look better
+1. Install fonts
+
+    You can download fonts from  https://be5invis.github.io/Iosevka/inziu.html 
+
+    Don't forget to import true-type-cmd-font.reg to your registery
+2. Import cmd color
+    https://github.com/Microsoft/console/tree/master/tools/ColorTool
+    ```
+    colortool -b campbell
+    ```
+    Don't forget to save your cmd Properties after color imported
+
+## Make powershell look better
 Note: You should be administrator account and set execution policy unrestricted before via
 ```
 Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy -Scope CurrentUser Bypass
 ```
-Create your powershell configuration file, you can see by typing $profile in powershell command windows, add following lines to make oh-my-posh work
+1. Install necessary modules 
 ```
-Import-Module oh-my-posh
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+Install-Module PSColor -Scope CurrentUser
+Install-Module DirColors -Scope CurrentUser
 ```
-2. Install fonts
+Display system info if you like, it looks good but useless
 ```
-git clone git@github.com:powerline/fonts.git
-cd fonts
-# right click install.ps1 run with powershell 
+Install-Module windows-screenfetch -Scope CurrentUser
 ```
-3. Set theme
-Last step, type "Set-Theme" space and tab to choose your theme
+2. Create your powershell configuration file
 
+  "Microsoft.PowerShell_profile.ps1" located in ~/Documents, you can see by typing $profile in powershell windows, add following lines according to your needs
+```
+Import-Module DirColors
+Import-Module PSColor
+Update-DirColors D:\your_user_name\Documents\WindowsPowerShell\dircolors\dircolors.ansi-dark
+
+Import-Module posh-git
+Import-Module oh-my-posh
+
+if (!(Get-SshAgent)) {
+    Start-SshAgent
+}
+
+Set-Theme PowerLine
+Screenfetch
+```
 ## Here are some other tips to make Windows easier to use 
 - Change Capslock to Esc
 
@@ -39,7 +108,7 @@ Last step, type "Set-Theme" space and tab to choose your theme
 - Add "Edit with Vim" to right click menu
 
   Right click add-edit-with-neovim.reg
-- Automatically empty the recycle bin after you logged in
+- Automatically empty the recycle bin after you log in
 
   Task Scheduler create new task
 ```
