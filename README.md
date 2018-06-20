@@ -1,14 +1,15 @@
-# Better Use Windows 
+# Better Use Windows 10 
 
-## Software to enhance your experience with Windows 
+## Software to enhance your experience with Windows 10
 ### Tool
 - Chrome
 - Office
 - CloudMusic
 - Shadowsocks
-- Winrar
 - Vmware
 - CCleaner
+- Free Download Manager
+- Winrar
 Create a new file named rarreg.key contains the following lines 
 ```
 RAR registration data
@@ -31,7 +32,6 @@ Placed it under the directory where winrar is installed
   ```
   https://www.zhihu.com/search?type=content&q={query}
   ```
-- Free Download Manager
 
 ### Social
 - Tim
@@ -41,8 +41,24 @@ Placed it under the directory where winrar is installed
 ```
 git config --global user.name "youName"
 git config --global user.email "youremail@example.com"
+
+git config --global color.status auto
+git config --global color.diff auto  
+git config --global color.branch auto 
+git config --global color.interactive true
+git config --global core.pager "less -x1,5"
+git config --global push.default simple 
+git config --global pull.ff only  
+git config --global merge.ff only  
 ```
 - VScode
+  
+  Plugins:
+  - Vim
+  - Code Runner
+  - Verdandi Theme
+
+- JDK, Python
 - Idea/Webstorm/pyCharm
 - Vim/Neovim
 - Settings -> Update&Security -> For Developers -> Developer Mode
@@ -63,10 +79,9 @@ git config --global user.email "youremail@example.com"
     ```
     Don't forget to save your cmd Properties after color imported
 
-## Make powershell look better
-Note: You should be administrator account and set execution policy unrestricted before via
+## Beautify powershell
+Note: You should be administrator account and set execution policy 
 ```
-Set-ExecutionPolicy Unrestricted
 Set-ExecutionPolicy -Scope CurrentUser Bypass
 ```
 1. Install necessary modules 
@@ -96,7 +111,7 @@ if (!(Get-SshAgent)) {
 }
 
 Set-Theme PowerLine
-Screenfetch
+# Screenfetch
 ```
 ## Here are some other tips to make Windows easier to use 
 - Change Capslock to Esc
