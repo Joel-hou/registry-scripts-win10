@@ -117,7 +117,7 @@ Set-Theme PowerLine
 - Change Capslock to Esc
 
   Just right click capslock-to-esc.reg
-- Make your taskbar transparent
+- Make your taskbar transparent (before win10 version 1803)
 
   Just right click transparent-taskbar to import entries
 - Add "Edit with Vim" to right click menu
