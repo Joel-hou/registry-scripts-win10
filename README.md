@@ -10,6 +10,7 @@
 - CCleaner
 - Free Download Manager
 - Winrar
+
 Create a new file named rarreg.key contains the following lines 
 ```
 RAR registration data
@@ -28,9 +29,13 @@ Placed it under the directory where winrar is installed
 - Dism++
 - Eudic
 - Listary
-  Listary 选项->关键字->Web 添加"知乎"
+  选项->关键字->Web 添加 "Keyeyword: zh" "Display title: Search Zhihu for {query}" URL: 
   ```
   https://www.zhihu.com/search?type=content&q={query}
+  ```
+  选项->关键字->Web 添加 "Keyeyword: gh" "Display title: Search Github for {query}" URL: 
+  ```
+  https://github.com/search?q={query} 
   ```
 
 ### Social
