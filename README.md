@@ -1,13 +1,14 @@
 # Better Use Windows 10 
 
-## Software to enhance your experience with Windows 10
-### Tool
+## Software List
 - Chrome
-- Office
+- Tim
+- WeChat
 - CloudMusic
 - Shadowsocks
+- Office
+- Eudic
 - Vmware
-- CCleaner
 - Free Download Manager
 - Winrar
 
@@ -26,8 +27,6 @@ b41bcf56929486b8bcdac33d50ecf77399608cfb51a0f9e15e798c
 1364c589ec5fcea9fa5b796e3fa7437cd080392e5d791757768079
 ```
 Placed it under the directory where winrar is installed
-- Dism++
-- Eudic
 - Listary
   选项->关键字->Web 添加 "Keyeyword: zh" "Display title: Search Zhihu for {query}" URL: 
   ```
@@ -38,10 +37,6 @@ Placed it under the directory where winrar is installed
   https://github.com/search?q={query} 
   ```
 
-### Social
-- Tim
-- WeChat
-### Coder
 - Git
 ```
 git config --global user.name "youName"
@@ -60,21 +55,17 @@ git config --global merge.ff only
   
   Plugins:
   - Vim
-  - Code Runner
   - Verdandi Theme
 
 - JDK, Python
 - Idea/Webstorm/pyCharm
 - Vim/Neovim
 - Settings -> Update&Security -> For Developers -> Developer Mode
-### UWP apps
-- Wunderlist
-- iTunes
 
 ## Make cmd look better
 1. Install fonts
 
-    You can download fonts from  https://be5invis.github.io/Iosevka/inziu.html 
+    You can download fonts from https://be5invis.github.io/Iosevka/inziu.html 
 
     Don't forget to import true-type-cmd-font.reg to your registery
 2. Import cmd color
